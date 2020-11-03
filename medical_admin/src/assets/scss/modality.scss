@@ -1,0 +1,154 @@
+// @import "./commonColor.scss"; //自定义.css的样式路径
+body {
+    color: #333;
+    ;
+}
+
+// 小手状态
+.littleHand {
+    cursor: pointer
+}
+
+
+/*header样式*/
+
+.paddingClass {
+    background-color: $colorfff;
+    padding: 0 20px;
+    padding-top: 20px;
+    border-radius: 3px;
+    .demo-ruleForm,
+    .el-form-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .demo-ruleForm {
+        .el-form-item {
+            margin-right: 20px;
+        }
+    }
+    .ringth {
+        justify-content: space-between;
+    }
+    .registerRouleForm {
+        .el-date-editor {
+            width: 300px;
+        }
+    }
+}
+
+.headerCommon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .marginLeft {
+        margin-left: 20px;
+    }
+}
+
+
+/*header样式 对齐和显示不下显示方式*/
+
+.displayHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* 关联下拉框 */
+
+// 表格距离头部-20px
+.tableTop {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    // 表格内容高度超出滚动
+    .bottom {
+        .el-table__body-wrapper {
+            height: 580px;
+            overflow-y: auto;
+        }
+    }
+}
+
+// 弹窗rigth
+.index-ruleForm {
+    .bottom {
+        text-align: right;
+    }
+}
+
+// 弹窗header样式
+.el-dialog {
+    border-radius: 20px;
+    .el-dialog__header,
+    .el-dialog__body {
+        border-radius: 20px 20px 0 0;
+    }
+    .el-dialog__header {
+        background-color: #158dfc !important;
+        .el-dialog__title {
+            color: $colorfff;
+        }
+        .el-dialog__close {
+            color: $colorfff;
+        }
+    }
+}
+
+
+/* 
+    *yin
+    *新增编辑页面的样式
+*/
+
+
+/* 最外层样式 */
+
+.generalNew {
+    padding: 20px;
+    background-color: $colorfff;
+}
+
+// 新增编辑页面的组件的宽度
+.confirm {
+    // .el-input__inner {
+    //     width: auto;
+    // }
+    .el-input {
+        width: 300px;
+    }
+    .el-textarea {
+        width: 20%;
+    }
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+// 实线
+.borderP {
+    border: 0.5px solid #3333;
+    margin-bottom: 10px;
+}
+
+// 底部按钮离内容距离
+.bottomBotton {
+    margin-top: 40px;
+}
+
+// tag标签
+.commonTag {
+    .el-tag {
+        height: 32px;
+        line-height: 32px;
+        font-size: 12px;
+    }
+    .el-icon-close {
+        font-size: 12px;
+    }
+}

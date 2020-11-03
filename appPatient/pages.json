@@ -1,0 +1,172 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/message/addMessage",
+			"style": {
+				"navigationBarTitleText": "新增就诊人",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/course/calendar/index",
+			"style": {
+				"navigationBarTitleText": "病程表",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/course/homepage/theDoctor",
+			"style": {
+				"navigationBarTitleText": "医生主页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/course/homepage/index",
+			"style": {
+				"navigationBarTitleText": "医生主页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/information/modify/modify",
+			"style": {
+				"navigationBarTitleText": "修改就诊人",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/course/message/index",
+			"style": {
+				"navigationBarTitleText": "完善就诊信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/zfrecords/zfrecords",
+			"style": {
+				"navigationBarTitleText": "支付记录",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/course/recordse/index",
+			"style": {
+				"navigationBarTitleText": "记录异常",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "感谢医生",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "就诊人信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/disease/disease",
+			"style": {
+				"navigationBarTitleText": "全部病程",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/sevideo/sevideo",
+			"style": {
+				"navigationBarTitleText": "医生专题视频",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/doctor/doctor",
+			"style": {
+				"navigationBarTitleText": "我的医生",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#fff",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-row": "/wxcomponents/vant/row/index",
+			"van-col": "/wxcomponents/vant/col/index",
+			"van-panel": "/wxcomponents/vant/panel/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-toast": "/wxcomponents/vant/toast/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-divider": "/wxcomponents/vant/divider/index",
+			"van-uploader": "/wxcomponents/vant/uploader/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-image": "/wxcomponents/vant/image/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+			"van-overlay": "/wxcomponents/vant/overlay/index"
+		}
+	},
+	"tabBar": {
+		"color": "#AFACAC",
+		"selectedColor": "#15A7E8",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/course/calendar/index",
+				"iconPath": "static/footer/1.png",
+				"selectedIconPath": "static/footer/s1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"iconPath": "static/footer/2.png",
+				"selectedIconPath": "static/footer/s2.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/footer/3.png",
+				"selectedIconPath": "static/footer/s3.png",
+				"text": "我的"
+			}
+		]
+	}
+}

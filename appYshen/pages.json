@@ -1,0 +1,170 @@
+{
+    "pages": [
+			{
+			    "path": "pages/login/index",
+			    "style": {
+			        "navigationBarTitleText": "登录",
+			        "enablePullDownRefresh": true
+			    }
+			},
+				{
+				    "path": "pages/patients/index",
+				    "style": {
+				        "navigationBarTitleText": "我的患者",
+				        "enablePullDownRefresh": true
+				    }
+				},
+        {
+            "path": "pages/qrcode/qrcode",
+            "style": {
+                "navigationBarTitleText": "我的个人码",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/coursetable/coursetable",
+            "style": {
+                "navigationBarTitleText": "病程表",
+                "enablePullDownRefresh": true,
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/details/index",
+            "style": {
+                "navigationBarTitleText": "患者详情",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/thank/thank",
+            "style": {
+                "navigationBarTitleText": "收到感谢",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/income/income",
+            "style": {
+                "navigationBarTitleText": "我的收入",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/editpswd/index",
+            "style": {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/sevideo/sevideo",
+            "style": {
+                "navigationBarTitleText": "我的专题视频",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/medical/index",
+            "style": {
+                "navigationBarTitleText": "常用语管理",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/compile/compile",
+            "style": {
+                "navigationBarTitleText": "新增常用语",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/writepropose/writepropose",
+            "style": {
+                "navigationBarTitleText": "写建议",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/propose/propose",
+            "style": {
+                "navigationBarTitleText": "健康建议",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/search/index",
+            "style": {
+                "navigationBarTitleText": "搜索患者",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/personal/index",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": true,
+                "navigationStyle": "custom"
+            }
+        },
+				{
+				    "path": "pages/updatedata/index",
+				    "style": {
+				        "navigationBarTitleText": "个人资料编辑",
+				        "enablePullDownRefresh": true
+				    }
+				},
+        {
+            "path": "pages/disease/disease",
+            "style": {
+                "navigationBarTitleText": "患者病程",
+                "enablePullDownRefresh": true
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#fff",
+				/* vantUI库引入 */ 
+        "usingComponents": {
+            "painter": "/wxcomponents/painter/painter",
+            "van-button": "/wxcomponents/vant/button/index",
+            "van-icon": "/wxcomponents/vant/icon/index",
+            "van-row": "/wxcomponents/vant/row/index",
+            "van-col": "/wxcomponents/vant/col/index",
+            "van-cell": "/wxcomponents/vant/cell/index",
+            "van-cell-group": "/wxcomponents/vant/cell-group/index",
+            "van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+            "van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+            "van-panel": "/wxcomponents/vant/panel/index",
+            "van-overlay": "/wxcomponents/vant/overlay/index",
+            "van-search": "/wxcomponents/vant/search/index",
+						"van-field": "/wxcomponents/vant/field/index",
+						"van-toast": "/wxcomponents/vant/toast/index"
+        }
+    },
+    /* 
+     *底部栏
+     */
+    "tabBar": {
+        "color": "#AFACAC",
+        "selectedColor": "#15A7E8",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/patients/index",
+                "iconPath": "static/footer/bottom3.png",
+                "selectedIconPath": "static/footer/bottom4.png",
+                "text": "我的患者"
+            },
+            {
+                "pagePath": "pages/personal/index",
+                "iconPath": "static/footer/bottom1.png",
+                "selectedIconPath": "static/footer/bottom2.png",
+                "text": "个人中心"
+            }
+        ]
+    }
+}
